@@ -1,0 +1,21 @@
+ISim log file
+Running: D:\5th Semester\Computer Organization\Xilinx\PipelineProcessorMIPS\PipelineTestFixture_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineTestFixture_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+This is a Full version of ISim.
+WARNING: File "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/InstructionFetchStage.v" Line 36.  For instance IF/P0/, width 32 of formal port IncPC1 is not equal to width 1 of actual signal IncPC1.
+WARNING: File "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineProcessorMIPS.v" Line 24.  For instance uut/MEM/, width 32 of formal port Rd2 is not equal to width 5 of actual signal Rd2.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 122 ns : File "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineTestFixture.v" Line 43
+ISim P.20131013 (signature 0x8ef4fb42)
+This is a Full version of ISim.
+WARNING: File "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/InstructionFetchStage.v" Line 36.  For instance IF/P0/, width 32 of formal port IncPC1 is not equal to width 1 of actual signal IncPC1.
+WARNING: File "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineProcessorMIPS.v" Line 24.  For instance uut/MEM/, width 32 of formal port Rd2 is not equal to width 5 of actual signal Rd2.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 122 ns : File "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineTestFixture.v" Line 43

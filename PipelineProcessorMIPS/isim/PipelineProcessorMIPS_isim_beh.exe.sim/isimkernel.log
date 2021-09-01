@@ -1,0 +1,28 @@
+Command line:
+   PipelineProcessorMIPS_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50438
+
+Sun Dec 22 17:43:06 2019
+
+
+ Elaboration Time: 0.15625 sec
+
+ Current Memory Usage: 1043.94 Meg
+
+ Total Signals          : 148
+ Total Nets             : 827
+ Total Signal Drivers   : 51
+ Total Blocks           : 13
+ Total Primitive Blocks : 8
+ Total Processes        : 73
+ Total Traceable Variables  : 74
+ Total Scalar Nets and Variables : 4731
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 1043.94 Meg
+
+Sun Dec 22 17:43:10 2019
+

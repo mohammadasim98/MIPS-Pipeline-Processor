@@ -1,0 +1,47 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineTestFixture_isim_beh.exe" -prj "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineTestFixture_beh.prj" "work.PipelineTestFixture" "work.glbl" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/ThirtyTwoBitAlu.v" into library work
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/RegisterFile.v" into library work
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/ProgramCounter.v" into library work
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/InstructionMemory2.v" into library work
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/HazardDetector.v" into library work
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/DATAMEM.v" into library work
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/Control.v" into library work
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/WriteBackResult.v" into library work
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/MemoryStage.v" into library work
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/IntructionExecuteStage.v" into library work
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/InstructionFetchStage.v" into library work
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/InstructionDecodeStage.v" into library work
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineProcessorMIPS.v" into library work
+Analyzing Verilog file "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineTestFixture.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/InstructionFetchStage.v" Line 36: Size mismatch in connection of port <IncPC1>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineProcessorMIPS.v" Line 45: Size mismatch in connection of port <Rd2>. Formal port size is 32-bit while actual signal size is 5-bit.
+Completed static elaboration
+Fuse Memory Usage: 180912 KB
+Fuse CPU Usage: 499 ms
+Compiling module ProgramCounter
+Compiling module Instructionmemory2
+Compiling module InstructionFetchStage
+Compiling module RegisterFile
+Compiling module Control
+Compiling module HazardDetector
+Compiling module InstructionDecodeStage
+Compiling module ThirtyTwoBitAlu
+Compiling module IntructionExecuteStage
+Compiling module DATAMEM
+Compiling module MemoryStage
+Compiling module WriteBackResult
+Compiling module PipelineProcessorMIPS
+Compiling module PipelineTestFixture
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 15 Verilog Units
+Built simulation executable D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineTestFixture_isim_beh.exe
+Fuse Memory Usage: 186224 KB
+Fuse CPU Usage: 686 ms

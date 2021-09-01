@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineTestFixture_isim_beh.exe" -prj "D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineTestFixture_beh.prj" "work.PipelineTestFixture" "work.glbl" 

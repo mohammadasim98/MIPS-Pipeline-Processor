@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/5th Semester/Computer Organization/Xilinx/PipelineProcessorMIPS/PipelineTestFixture_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="PipelineTestFixture" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/PipelineTestFixture/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/RST" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/IF/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/IF/Instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/ID/ForwardA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ForwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/ID/ForwardB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ForwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/ID/R0/Regs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Regs[31:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">Regs[31:0,31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/MEM/datamemory/Memory" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Memory[31:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">Memory[31:0,31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/WBack/BusWFlipFlop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">BusWFlipFlop[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BusWFlipFlop[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/ID/Rd4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rd4[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd4[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/IEEX/ALUresult" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUresult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUresult[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/ID/ALUout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUout[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/ID/MuxA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MuxA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MuxA[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/ID/MuxB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MuxB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MuxB[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/MEM/memDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memDATA[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/IEEX/ALUinA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUinA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUinA[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/IEEX/ALUinB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUinB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUinB[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/IEEX/ExtOUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ExtOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ExtOUT[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/ID/BusDiff" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">BusDiff[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BusDiff[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/ID/Stall" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Stall</obj_property>
+      <obj_property name="ObjectShortName">Stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/IF/P0/PCsrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PCsrc</obj_property>
+      <obj_property name="ObjectShortName">PCsrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/ID/ZERO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ZERO</obj_property>
+      <obj_property name="ObjectShortName">ZERO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/ID/bne" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bne</obj_property>
+      <obj_property name="ObjectShortName">bne</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PipelineTestFixture/uut/ID/J" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">J</obj_property>
+      <obj_property name="ObjectShortName">J</obj_property>
+   </wvobject>
+</wave_config>
